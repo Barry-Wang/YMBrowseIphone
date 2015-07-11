@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		971588507488E1CD780DA0A9 /* libPods-YMBrowseIphone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8868D3310BD775A4E2DB8D22 /* libPods-YMBrowseIphone.a */; };
+		DA3B86901B515B8D00E35808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B868F1B515B8D00E35808 /* main.m */; };
+		DA3B86931B515B8D00E35808 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B86921B515B8D00E35808 /* AppDelegate.m */; };
+		DA3B86961B515B8D00E35808 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B86951B515B8D00E35808 /* ViewController.m */; };
+		DA3B86991B515B8D00E35808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3B86971B515B8D00E35808 /* Main.storyboard */; };
+		DA3B869B1B515B8D00E35808 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3B869A1B515B8D00E35808 /* Images.xcassets */; };
+		DA3B869E1B515B8D00E35808 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA3B869C1B515B8D00E35808 /* LaunchScreen.xib */; };
+		DA3B86AA1B515B8D00E35808 /* YMBrowseIphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B86A91B515B8D00E35808 /* YMBrowseIphoneTests.m */; };
+		DA3B86B51B515CCC00E35808 /* YMBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B86B41B515CCC00E35808 /* YMBrowser.m */; };
+		DA3B86B91B515D6200E35808 /* Web in Resources */ = {isa = PBXBuildFile; fileRef = DA3B86B61B515D6100E35808 /* Web */; };
+		DA3B86BA1B515D6200E35808 /* YMConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3B86B81B515D6200E35808 /* YMConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA3B86A41B515B8D00E35808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3B86821B515B8D00E35808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3B86891B515B8D00E35808;
+			remoteInfo = YMBrowseIphone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59819C0F4F63C2DE7F5E9DA6 /* Pods-YMBrowseIphone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMBrowseIphone.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMBrowseIphone/Pods-YMBrowseIphone.release.xcconfig"; sourceTree = "<group>"; };
+		72C6E51C423BAC7FC0E0D2ED /* Pods-YMBrowseIphone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMBrowseIphone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMBrowseIphone/Pods-YMBrowseIphone.debug.xcconfig"; sourceTree = "<group>"; };
+		8868D3310BD775A4E2DB8D22 /* libPods-YMBrowseIphone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YMBrowseIphone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3B868A1B515B8D00E35808 /* YMBrowseIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMBrowseIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3B868E1B515B8D00E35808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3B868F1B515B8D00E35808 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA3B86911B515B8D00E35808 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA3B86921B515B8D00E35808 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA3B86941B515B8D00E35808 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA3B86951B515B8D00E35808 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA3B86981B515B8D00E35808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA3B869A1B515B8D00E35808 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA3B869D1B515B8D00E35808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DA3B86A31B515B8D00E35808 /* YMBrowseIphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMBrowseIphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3B86A81B515B8D00E35808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3B86A91B515B8D00E35808 /* YMBrowseIphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMBrowseIphoneTests.m; sourceTree = "<group>"; };
+		DA3B86B31B515CCC00E35808 /* YMBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMBrowser.h; sourceTree = "<group>"; };
+		DA3B86B41B515CCC00E35808 /* YMBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMBrowser.m; sourceTree = "<group>"; };
+		DA3B86B61B515D6100E35808 /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Web; sourceTree = "<group>"; };
+		DA3B86B71B515D6200E35808 /* YMConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMConnection.h; sourceTree = "<group>"; };
+		DA3B86B81B515D6200E35808 /* YMConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMConnection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA3B86871B515B8D00E35808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971588507488E1CD780DA0A9 /* libPods-YMBrowseIphone.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3B86A01B515B8D00E35808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A60DE96CA4E84ED856F2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72C6E51C423BAC7FC0E0D2ED /* Pods-YMBrowseIphone.debug.xcconfig */,
+				59819C0F4F63C2DE7F5E9DA6 /* Pods-YMBrowseIphone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		34CDD63AC3620DA49E43F1F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8868D3310BD775A4E2DB8D22 /* libPods-YMBrowseIphone.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA3B86811B515B8D00E35808 = {
+			isa = PBXGroup;
+			children = (
+				DA3B868C1B515B8D00E35808 /* YMBrowseIphone */,
+				DA3B86A61B515B8D00E35808 /* YMBrowseIphoneTests */,
+				DA3B868B1B515B8D00E35808 /* Products */,
+				15A60DE96CA4E84ED856F2FA /* Pods */,
+				34CDD63AC3620DA49E43F1F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA3B868B1B515B8D00E35808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA3B868A1B515B8D00E35808 /* YMBrowseIphone.app */,
+				DA3B86A31B515B8D00E35808 /* YMBrowseIphoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA3B868C1B515B8D00E35808 /* YMBrowseIphone */ = {
+			isa = PBXGroup;
+			children = (
+				DA3B86B61B515D6100E35808 /* Web */,
+				DA3B86B71B515D6200E35808 /* YMConnection.h */,
+				DA3B86B81B515D6200E35808 /* YMConnection.m */,
+				DA3B86B31B515CCC00E35808 /* YMBrowser.h */,
+				DA3B86B41B515CCC00E35808 /* YMBrowser.m */,
+				DA3B86911B515B8D00E35808 /* AppDelegate.h */,
+				DA3B86921B515B8D00E35808 /* AppDelegate.m */,
+				DA3B86941B515B8D00E35808 /* ViewController.h */,
+				DA3B86951B515B8D00E35808 /* ViewController.m */,
+				DA3B86971B515B8D00E35808 /* Main.storyboard */,
+				DA3B869A1B515B8D00E35808 /* Images.xcassets */,
+				DA3B869C1B515B8D00E35808 /* LaunchScreen.xib */,
+				DA3B868D1B515B8D00E35808 /* Supporting Files */,
+			);
+			path = YMBrowseIphone;
+			sourceTree = "<group>";
+		};
+		DA3B868D1B515B8D00E35808 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA3B868E1B515B8D00E35808 /* Info.plist */,
+				DA3B868F1B515B8D00E35808 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA3B86A61B515B8D00E35808 /* YMBrowseIphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA3B86A91B515B8D00E35808 /* YMBrowseIphoneTests.m */,
+				DA3B86A71B515B8D00E35808 /* Supporting Files */,
+			);
+			path = YMBrowseIphoneTests;
+			sourceTree = "<group>";
+		};
+		DA3B86A71B515B8D00E35808 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA3B86A81B515B8D00E35808 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA3B86891B515B8D00E35808 /* YMBrowseIphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3B86AD1B515B8D00E35808 /* Build configuration list for PBXNativeTarget "YMBrowseIphone" */;
+			buildPhases = (
+				8E717B6B73867AAC0F7004D7 /* Check Pods Manifest.lock */,
+				DA3B86861B515B8D00E35808 /* Sources */,
+				DA3B86871B515B8D00E35808 /* Frameworks */,
+				DA3B86881B515B8D00E35808 /* Resources */,
+				4107680C09BCC0294FFD8909 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMBrowseIphone;
+			productName = YMBrowseIphone;
+			productReference = DA3B868A1B515B8D00E35808 /* YMBrowseIphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA3B86A21B515B8D00E35808 /* YMBrowseIphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3B86B01B515B8D00E35808 /* Build configuration list for PBXNativeTarget "YMBrowseIphoneTests" */;
+			buildPhases = (
+				DA3B869F1B515B8D00E35808 /* Sources */,
+				DA3B86A01B515B8D00E35808 /* Frameworks */,
+				DA3B86A11B515B8D00E35808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3B86A51B515B8D00E35808 /* PBXTargetDependency */,
+			);
+			name = YMBrowseIphoneTests;
+			productName = YMBrowseIphoneTests;
+			productReference = DA3B86A31B515B8D00E35808 /* YMBrowseIphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA3B86821B515B8D00E35808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = barry;
+				TargetAttributes = {
+					DA3B86891B515B8D00E35808 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DA3B86A21B515B8D00E35808 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DA3B86891B515B8D00E35808;
+					};
+				};
+			};
+			buildConfigurationList = DA3B86851B515B8D00E35808 /* Build configuration list for PBXProject "YMBrowseIphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA3B86811B515B8D00E35808;
+			productRefGroup = DA3B868B1B515B8D00E35808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA3B86891B515B8D00E35808 /* YMBrowseIphone */,
+				DA3B86A21B515B8D00E35808 /* YMBrowseIphoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA3B86881B515B8D00E35808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3B86991B515B8D00E35808 /* Main.storyboard in Resources */,
+				DA3B86B91B515D6200E35808 /* Web in Resources */,
+				DA3B869E1B515B8D00E35808 /* LaunchScreen.xib in Resources */,
+				DA3B869B1B515B8D00E35808 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3B86A11B515B8D00E35808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4107680C09BCC0294FFD8909 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YMBrowseIphone/Pods-YMBrowseIphone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E717B6B73867AAC0F7004D7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA3B86861B515B8D00E35808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3B86BA1B515D6200E35808 /* YMConnection.m in Sources */,
+				DA3B86B51B515CCC00E35808 /* YMBrowser.m in Sources */,
+				DA3B86961B515B8D00E35808 /* ViewController.m in Sources */,
+				DA3B86931B515B8D00E35808 /* AppDelegate.m in Sources */,
+				DA3B86901B515B8D00E35808 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3B869F1B515B8D00E35808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3B86AA1B515B8D00E35808 /* YMBrowseIphoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA3B86A51B515B8D00E35808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3B86891B515B8D00E35808 /* YMBrowseIphone */;
+			targetProxy = DA3B86A41B515B8D00E35808 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA3B86971B515B8D00E35808 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA3B86981B515B8D00E35808 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA3B869C1B515B8D00E35808 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA3B869D1B515B8D00E35808 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA3B86AB1B515B8D00E35808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA3B86AC1B515B8D00E35808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA3B86AE1B515B8D00E35808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C6E51C423BAC7FC0E0D2ED /* Pods-YMBrowseIphone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMBrowseIphone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA3B86AF1B515B8D00E35808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59819C0F4F63C2DE7F5E9DA6 /* Pods-YMBrowseIphone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMBrowseIphone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA3B86B11B515B8D00E35808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YMBrowseIphoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMBrowseIphone.app/YMBrowseIphone";
+			};
+			name = Debug;
+		};
+		DA3B86B21B515B8D00E35808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YMBrowseIphoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMBrowseIphone.app/YMBrowseIphone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA3B86851B515B8D00E35808 /* Build configuration list for PBXProject "YMBrowseIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3B86AB1B515B8D00E35808 /* Debug */,
+				DA3B86AC1B515B8D00E35808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3B86AD1B515B8D00E35808 /* Build configuration list for PBXNativeTarget "YMBrowseIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3B86AE1B515B8D00E35808 /* Debug */,
+				DA3B86AF1B515B8D00E35808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3B86B01B515B8D00E35808 /* Build configuration list for PBXNativeTarget "YMBrowseIphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3B86B11B515B8D00E35808 /* Debug */,
+				DA3B86B21B515B8D00E35808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA3B86821B515B8D00E35808 /* Project object */;
+}

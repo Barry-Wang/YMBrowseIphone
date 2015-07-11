@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-YMBrowseIphone-CocoaAsyncSocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-YMBrowseIphone-CocoaHTTPServer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-YMBrowseIphone-CocoaLumberjack.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-YMBrowseIphone.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5F1016F863FAB93DF4917F5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>607F31EAE4C3818089EFE324</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6DA9D03CDB85B6C77004A7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F556556B2C7CB79C2164C477</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
